@@ -6,7 +6,7 @@ import requests
 import json
 
 # Load the trained classification model
-classifier = tf.keras.models.load_model("/content/drive/MyDrive/material_classifier.h5")
+classifier = tf.keras.models.load_model("material_classifier.h5")
 
 # Class labels
 class_names = [
